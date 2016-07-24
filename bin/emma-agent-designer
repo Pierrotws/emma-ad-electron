@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+cd $(dirname "${BASH_SOURCE}")/..
+./node_modules/.bin/electron lib/app.js
